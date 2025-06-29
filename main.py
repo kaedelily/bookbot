@@ -3,7 +3,7 @@ def get_book_text(book):
             return f.read() # Read the content of the book file: replaces the previous get_book_text function
 
 def main():
-    book_text = get_book_text(books/frankenstein.txt) # type: ignore
+    book_text = get_book_text(/books/frankenstein.txt) # type: ignore
     print(book_text)
 
 main()
