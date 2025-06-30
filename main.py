@@ -5,7 +5,7 @@ def get_book_text(path):
 def main():
     book_text = get_book_text("books/frankenstein.txt") 
     words = get_words(book_text)
-    print(words + " words found in the document")
+    print(f"$words words found in the document")
 
 
 def get_words(book_text):
