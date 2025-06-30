@@ -4,6 +4,13 @@ def get_book_text(path):
 
 def main():
     book_text = get_book_text("books/frankenstein.txt") 
-    print(book_text)
+    words = get_words(book_text)
+    print(words)
+
+
+def get_words(book_text):
+    words = book_text.split()
+    num_words = len(words)
+    return num_words
 
 main()
