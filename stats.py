@@ -1,7 +1,7 @@
-def get_num_words(book_text):
-    words = book_text.split()
-    num_words = len(words)
-    return num_words
+def count_words(get_book_text):
+    words = get_book_text.split() # Split the book text into words
+    num_words = len(words) # Count the number of words
+    return num_words # Return the number of words counted
 
 def character_count(get_book_text):
     text = get_book_text.lower() # Get the book text
